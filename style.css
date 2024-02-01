@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	background-color: rgb(49, 48, 48);
+	color: rgb(255, 255, 255);
+}
+main {
+	max-width: 400px;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	border-radius: 6px;
+	padding: 2rem;
+	margin: 20rem auto;
+}
+.hide {
+	display: none;
+}
+.firstScreen h1 {
+	margin-bottom: 1.5rem;
+	font-size: 3rem;
+}
+.firstScreen p {
+	font-size: 2rem;
+}
+.firstScreen form {
+	display: flex;
+	justify-content: center;
+	margin-top: 4.8rem;
+}
+input,
+button {
+	border: none;
+	padding: 1.6rem;
+	cursor: pointer;
+}
+.firstScreen input {
+	width: 5rem;
+	border-radius: 4px 0 0 4px;
+}
+.firstScreen button {
+	font-size: 1.6rem;
+	display: block;
+	font-weight: bold;
+	border-radius: 0 4px 4px 0;
+}
+.secondScreen button {
+	font-size: 1.6rem;
+	margin-top: 4.8rem;
+	border-radius: 4px 4px 4px 4px;
+	font-weight: bold;
+}
+.error {
+	font-size: 1.8rem;
+	margin-top: 2rem;
+	color: red;
+}
